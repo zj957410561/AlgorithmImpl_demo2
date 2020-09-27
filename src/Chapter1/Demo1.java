@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Demo1 {
+    static int a[]=new int[10];
     /**
      * 1.1.3编写一个程序，从命令行得到三个整数参数。如果他们都相等就打印equal 否则打印not equal
      */
@@ -124,6 +125,9 @@ public class Demo1 {
     }
 
     public static void main(String[] args) {
+
+
+        System.out.println(a[10 ]);
         Demo1 demo1 = new Demo1();
         demo1.Test119();
 
