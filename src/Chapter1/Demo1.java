@@ -108,6 +108,20 @@ public class Demo1 {
         System.out.println(Arrays.deepToString(d));
     }
 
+    /**
+     * 不用Math中的api返回不大于LogM(N)的最大整数
+     * @param N
+     * @param M
+     */
+    @Test
+    public void Test1114(int N, int M) {
+        int a = 0;
+        while (N >= M) {
+            N = N / M;
+            a++;
+        }
+        System.out.println(a);
+    }
 
     public static void main(String[] args) {
         Demo1 demo1 = new Demo1();
