@@ -124,8 +124,7 @@ public class Demo1 {
         System.out.println(a);
     }
 
-    public static void main(String[] args) {
-
+    public static void main(String args[]){
 
         System.out.println(a[10 ]);
         Demo1 demo1 = new Demo1();
